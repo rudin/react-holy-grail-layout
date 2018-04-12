@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "main": "lib/index.js",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudin/react-holy-grail-layout.git"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",

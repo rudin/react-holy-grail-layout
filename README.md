@@ -1,4 +1,4 @@
-React components to create a Holy Grail Layout, with [styled-components][styled-components] and [styled-system][styled-system]
+React components to create a Holy Grail Layout, with [styled-components](https://www.styled-components.com/) and [styled-system](http://jxnblk.com/styled-system/)
 
 ## Installation
 

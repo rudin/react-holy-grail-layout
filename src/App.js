@@ -9,7 +9,7 @@ export default () => (
       <Content bg="lightblue" p={2}>
         Content
       </Content>
-      <Aside bg="pink" left primary p={2}>
+      <Aside bg="pink" left p={2}>
         Left
       </Aside>
       <Aside bg="orange" right p={2}>

@@ -83,3 +83,25 @@ export default () => (
   </ThemeProvider>
 )
 ```
+
+Use this pattern if you want to extend the styling of the Layout components:
+
+```javascript
+import * as Layout from 'react-holy-grail-layout'
+
+const Container = Layout.Container.extend`
+  max-width: 1280px;
+`
+
+const Header = Layout.Header.extend`
+  border-radius: 24px;
+`
+```
+
+I love this pattern:
+
+```javascript
+const Header = Layout.Header.extend.attrs({ p: 2, bg: 'lightgreen' })``
+```
+
+Cheers!
